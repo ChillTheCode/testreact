@@ -1,6 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { createRoot } from "react-dom/client";
 
+// eslint-disable-next-line no-unused-vars
 const Pet = () => {
   const handleClickYes = () => {
     alert("haloo ara");
@@ -46,6 +48,7 @@ const Pet = () => {
   );
 };
 
+// eslint-disable-next-line no-unused-vars
 const App = () => {
   return <Pet />;
 };
